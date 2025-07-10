@@ -1,0 +1,21 @@
+desired features list
+
+location and date like ebird
+
+no account creation required
+
+customize quizzes by taxonomy e.g. only gulls
+
+also by poly/paraphyletic groups e.g. raptors
+
+option to fully customize which taxa to include or use preset groups
+
+ability to skip impossible questions like ebird
+
+
+
+
+
+
+
+
