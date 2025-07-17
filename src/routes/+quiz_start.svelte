@@ -1,3 +1,5 @@
+<title>Bird Quiz</title>
+
 <style>
     body{
         background-color: azure;
@@ -6,6 +8,7 @@
     button{
         margin-top: 0px;
         margin-bottom: 0px;
+        font-size: large;
     }
     p{
         margin-left: 20px;
@@ -55,8 +58,6 @@
     }
 </style>
 
-<title>Bird Quiz</title>
-
 <body>
     <h1 style="text-align: center">Customizable Bird ID Quiz</h1>
 
@@ -78,15 +79,15 @@
                     <td><input type="text" id="region" name="region"></td>
                 </tr>
                 <tr>
-                    <td><label for="time_of_year">Choose a day of the year:</label></td>
-                    <td><input type="text" id="time_of_year" name="time_of_year"></td>   
+                    <td><label for="date">Choose a day of the year:</label></td>
+                    <td><input type="date" id="date" name="date"></td>   
                 </tr>
                 <tr>
                     <td><label for="taxa_included">Choose which bird taxa to include in your quiz (optional):</label></td>
                     <td><input type="text" id="taxa_included" name="taxa_included"></td>
                 </tr>
                 <tr>
-                    <td><label for="taxa_excluded">Choose which bird taxa to exclude from your quiz:</label></td>
+                    <td><label for="taxa_excluded">Choose which bird taxa to exclude from your quiz (optional):</label></td>
                     <td><input type="text" id="taxa_excluded" name="taxa_excluded"></td>
                 </tr>
             </table>
